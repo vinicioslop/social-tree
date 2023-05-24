@@ -1,0 +1,10 @@
+.icons_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 200px;
+
+    margin-top: 30px;
+}
