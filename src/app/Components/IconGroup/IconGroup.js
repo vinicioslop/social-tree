@@ -10,28 +10,28 @@ import instagramIcon from '../../../icons/instagram_icon.svg';
 export default function IconGroup() {
     return (
         <div className={styles.icons_box}>
-            <Link target='_blank' href="https://www.linkedin.com/in/viniciuslopeslima/">
+            <Link className={styles.icon_link} target='_blank' href="https://www.linkedin.com/in/viniciuslopeslima/">
                 <Image
                     src={linkedinIcon}
                     width={24}
                     height={24}
-                    alt="Icone ..."
+                    alt="Icon of LinkedIn Logo"
                 />
             </Link>
-            <Link target='_blank' href="https://github.com/vinicioslop">
+            <Link className={styles.icon_link} target='_blank' href="https://github.com/vinicioslop">
                 <Image
                     src={githubIcon}
                     width={24}
                     height={24}
-                    alt="Icone ..."
+                    alt="Icon of GitHub Logo"
                 />
             </Link>
-            <Link target='_blank' href="https://www.instagram.com/viniciusl.21/">
+            <Link className={styles.icon_link} target='_blank' href="https://www.instagram.com/viniciusl.21/">
                 <Image
                     src={instagramIcon}
                     width={24}
                     height={24}
-                    alt="Icone ..."
+                    alt="Icon of Instagram Logo"
                 />
             </Link>
         </div>

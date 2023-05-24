@@ -10,6 +10,7 @@ export default function PicCardUser() {
         <div className={styles.pic_card_user}>
             <div className={styles.pic_box}>
                 <Image
+                    priority
                     className={styles.pic}
                     src={myPic}
                     width={140}
@@ -17,9 +18,9 @@ export default function PicCardUser() {
                     alt="Picture of the author"
                 />
             </div>
-            <div className={styles.user}>
+            <Link className={styles.user} target='_blank' href="https://github.com/vinicioslop/">
                 @vinicioslop
-            </div>
+            </Link>
         </div>
     )
 }
