@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #663399;
+  --primary-color2: #7750a9;
+  --primary-color3: #8a72be;
+  --secondary-color: #80d2e6;
+  --secondary-color2: #50bed2;
+  --secondary-color3: #1f9fb6;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
