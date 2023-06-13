@@ -1,5 +1,8 @@
 # Social Tree
-Repositório para versionamento do projeto de árvore de link para mídias sociais.
+Repositório para versionamento do projeto de árvore de link para mídias sociais e contato comigo.
 
 ## Status do Projeto
-Completo
+👌 Online 👌
+
+## Tecnologias utilizadas no processo
+- ReactJS com Framework NextJS
