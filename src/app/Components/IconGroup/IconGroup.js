@@ -6,6 +6,7 @@ import styles from './icongroup.module.css';
 import linkedinIcon from '../../../icons/linkedin_icon.svg';
 import githubIcon from '../../../icons/github_icon.svg';
 import instagramIcon from '../../../icons/instagram_icon.svg';
+import mailIcon from '../../../icons/mail_icon.svg';
 
 export default function IconGroup() {
     return (
@@ -32,6 +33,14 @@ export default function IconGroup() {
                     width={24}
                     height={24}
                     alt="Icon of Instagram Logo"
+                />
+            </Link>
+            <Link className={styles.icon_link} target='_blank' href="mailto:contato@vinicioslop.com.br">
+                <Image
+                    src={mailIcon}
+                    width={24}
+                    height={24}
+                    alt="Icon of E-mail"
                 />
             </Link>
         </div>
