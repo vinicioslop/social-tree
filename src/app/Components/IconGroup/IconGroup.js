@@ -35,7 +35,7 @@ export default function IconGroup() {
                     alt="Icon of Instagram Logo"
                 />
             </Link>
-            <Link className={styles.icon_link} target='_blank' href="mailto:contato@vinicioslop.com.br">
+            <Link className={styles.icon_link} target='_self' href="mailto:contato@vinicioslop.com.br">
                 <Image
                     src={mailIcon}
                     width={24}
