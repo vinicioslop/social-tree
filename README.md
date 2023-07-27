@@ -4,7 +4,7 @@ Repositório para versionamento do projeto de árvore de link para mídias socia
 ## Processo
 Projeto foi desenvolvido usando como base uma aplicação famosa muito utilizada pela comunidade e influenciadores, o Linktree.
 
-Iniciou-se como uma resolução da plataforma Rocketseat se utilizando de HTML e CSS, mas desenvolvida utilizando ReactJS com o framework Next.js da Vercel.
+Iniciou-se como uma resolução do desafio da plataforma Rocketseat se utilizando de HTML e CSS, mas desenvolvida utilizando ReactJS com o framework Next.js da Vercel.
 
 A aplicação foi desenvolvida se utilizando apenas dos artefatos disponibilizados pelo ReactJs e Next.js.
 
