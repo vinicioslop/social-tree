@@ -1,12 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import styles from './icongroup.module.css';
+import styles from './styles.module.css';
 
-import linkedinIcon from '../../../icons/linkedin_icon.svg';
-import githubIcon from '../../../icons/github_icon.svg';
-import instagramIcon from '../../../icons/instagram_icon.svg';
-import mailIcon from '../../../icons/mail_icon.svg';
+import linkedinIcon from '@/icons/linkedin_icon.svg';
+import githubIcon from '@/icons/github_icon.svg';
+import instagramIcon from '@/icons/instagram_icon.svg';
+import mailIcon from '@/icons/mail_icon.svg';
 
 export default function IconGroup() {
     return (

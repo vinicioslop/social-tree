@@ -1,16 +1,12 @@
-import PicCardUser from './Components/PicCardUser/PicCardUser';
-import LinkGroup from './Components/LinkGroup/LinkGroup';
-import IconGroup from './Components/IconGroup/IconGroup';
-import MyFooter from './Components/MyFooter/MyFooter';
+import Card from '@/app/Components/Card/Card';
+import MyFooter from '@/app/Components/MyFooter/MyFooter';
 
 import styles from './page.module.css';
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <PicCardUser />
-      <LinkGroup />
-      <IconGroup />
+    <main className={styles.container}>
+      <Card />
       <MyFooter />
     </main>
   );

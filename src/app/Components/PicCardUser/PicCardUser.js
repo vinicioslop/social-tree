@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import styles from './piccarduser.module.css';
+import styles from './styles.module.css';
 
-import myPic from '../../../images/pic.png';
+import myPic from '@/images/pic.png';
 
 export default function PicCardUser() {
     return (

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import styles from './linkgroup.module.css';
+import styles from './styles.module.css';
 
 export default function LinkGroup() {
     return (
