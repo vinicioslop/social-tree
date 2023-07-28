@@ -5,12 +5,12 @@ import styles from './styles.module.css';
 export default function LinkGroup() {
     return (
         <div className={styles.links_box}>
-            <Link className={styles.link} target='_blank' href="https://www.linkedin.com/in/viniciuslopeslima/">
+            <Link className={styles.link} target='_blank' href="https://portfolio.vinicioslop.com.br/">
                 <button className={styles.link_button}>
                     <span></span>
                     <span></span>
                     <span></span>
-                    <span></span> LinkedIn
+                    <span></span> Portfólio
                 </button>
             </Link>
             <Link className={styles.link} target='_blank' href="https://github.com/vinicioslop">

@@ -4,8 +4,40 @@
   align-items: center;
   justify-content: space-between;
 
-  min-height: 100vh;
-  height: min-content;
-
   background-color: var(--background-color);
+}
+
+@media screen and (max-width: 599px) {
+  .container {
+    min-height: 100vh;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    min-height: 100vh;
+    height: 100vh;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    min-height: 100vh;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    min-height: 100vh;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .container {
+    min-height: 100vh;
+    height: 100%;
+  }
 }
